@@ -1,0 +1,365 @@
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100px;
+    }
+    
+    header div {
+        display: inline-block;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .header-left {
+        width: 200px;
+        margin-left: -45px;
+    }
+    
+    .header-left img {
+        display: inline-block;
+        padding-top: 25px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .header-middle {
+        font-size: 18px;
+        font-weight: 500;
+        width: 900px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 85px;
+    }
+    
+    .header-middle a {
+        color: #492E00;
+        text-decoration: underline 2px rgba(73, 46, 0, 0);
+        transition: text-decoration-color 0.3s;
+        text-underline-offset: 5px;
+    }
+    
+    .header-middle a:hover {
+        text-decoration: underline 3px rgba(73, 46, 0, 1);
+    }
+    
+    .header-right {
+        background-color: #4F8147;
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: -100px;
+    }
+    
+    .header-right:hover {
+        background-color: rgba(73, 46, 0, 1);
+    }
+    
+    .header-right a {
+        color: white;
+    }
+    
+    .banner {
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    
+    .banner-right {
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+        border-radius: 5px;
+    }
+    
+    .banner-right img {
+        padding-right: 50px;
+        width: 80%;
+        height: auto;
+    }
+    
+    .banner-left {
+        width: 20%;
+        padding-left: 120px;
+    }
+    
+    h1 {
+        color: #1B4527;
+        font-size: 45px;
+        margin-top: 0;
+    }
+    
+    .banner-left p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .leistungen {
+        background-color: #1B4527;
+        padding: 50px 0;
+    }
+    
+    .leistungen-top {
+        text-align: center;
+        color: white;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    .leistungen-top p {
+        font-size: 18px;
+    }
+    
+    .leistungen-point {
+        width: 15%;
+    }
+    
+    h3 {
+        font-size: 28px;
+        margin: 10px 0;
+    }
+    
+    .leistungen-first {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 75px;
+    }
+    
+    .leistungen-second {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 75px;
+    }
+    
+    .leistungen-icon {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .leistungen-icon img {
+        height: 90px;
+    }
+    
+    .leistungen-info {
+        color: white;
+    }
+    
+    .leistungen-info p {
+        line-height: 25px;
+    }
+    
+    .leistungen-info a {
+        color: rgba(168, 207, 69, 1);
+        text-decoration: underline 2px;
+        text-decoration-color: rgba(168, 207, 69, 0);
+        text-underline-offset: 5px;
+        font-weight: 600;
+        transition: all 0.2s;
+    }
+    
+    .leistungen-info a:hover {
+        text-decoration-color: rgba(168, 207, 69, 1);
+    }
+    
+    .projekte {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 15px
+    }
+    
+    .projekte-row img {
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .warum-wir {
+        padding: 0 60px
+    }
+    
+    .warum-wir-top {
+        font-size: 24px;
+        color: #2F2F2F;
+        font-weight: 500;
+        text-align: center;
+        padding: 100px 200px 0;
+    }
+    
+    .warum-wir-info {
+        width: 350px;
+        text-align: center;
+        padding: 50px 30px;
+    }
+    
+    .warum-wir-info .head {
+        font-size: 80px;
+        color: #2A7D2E;
+    }
+    
+    .warum-wir-info .mid {
+        font-size: 34px;
+        color: #2A7D2E;
+    }
+    
+    .warum-wir-info .bottom {
+        font-size: 22px;
+        color: #0B3D2C;
+    }
+    
+    .warum-wir-collum {
+        background-color: #A9C0B6;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .warum-wir-middle {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .warum-wir-bottom {
+        background-color: #A9C0B6;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-start;
+        border-radius: 15px;
+    }
+    
+    .warum-wir-bottom-left img {
+        width: 450px;
+        border-radius: 15px;
+    }
+    
+    .warum-wir-bottom-left {
+        border-radius: 5px;
+    }
+    
+    h4 {
+        margin: 0;
+        font-size: 27px;
+        color: #FFFFFF;
+        font-weight: 300;
+    }
+    
+    .warum-wir-bottom p {
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 200;
+        line-height: 25px;
+    }
+    
+    .warum-wir-bottom span {
+        color: #FFFFFF;
+        font-weight: 500;
+    }
+    
+    .warum-wir-bottom-right {
+        padding-left: 50px;
+    }
+    
+    .warum-wir-right-button a {
+        background-color: #2A7D2E;
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-top: 50px;
+        transition: all 0.3s;
+    }
+    
+    .warum-wir-right-button a:hover {
+        background-color: rgba(73, 46, 0, 1);
+    }
+    
+    footer {
+        margin-top: 50px;
+        background-color: #A9C0B6;
+        height: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        padding: 30px 0;
+    }
+    
+    .footer-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-middle {
+        color: white;
+        padding: 20px;
+    }
+    
+    h4 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .footer-right {
+        padding: 20px;
+    }
+    
+    .footer-icons div a img {
+        width: 25px;
+        padding: 10px;
+    }
+    
+    .footer-icons div {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-icons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+    
+    .footer-rechtliches {
+        margin-top: 20px;
+    }
+    
+    .footer-rechtliches a {
+        color: white;
+        text-decoration: underline 3px;
+        text-decoration-color: rgba(168, 207, 69, 0);
+        text-underline-offset: 5px;
+        transition: all 0.3s;
+    }
+    
+    .footer-rechtliches a:hover {
+        text-decoration-color: rgba(168, 207, 69, 1);
+    }
